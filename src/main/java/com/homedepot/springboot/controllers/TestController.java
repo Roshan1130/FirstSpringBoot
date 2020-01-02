@@ -24,6 +24,5 @@ public class TestController {
 	@RequestMapping(value="/insert", method=RequestMethod.POST)
 	public void setValue(@RequestBody StudentDto student) {
 		System.out.println(student.toString());
-	}
-	
+	}	
 }
